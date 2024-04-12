@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Temp Convertor Using JS</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="container">
+        <h1>Tempratue Convertor</h1>
+
+        <br /><label for="tempNum">Tempratue : </label><br />
+        <input type="number" id="tempNum" value="0" /><br />
+
+        <div class="radio">
+          <br /><input type="radio" id="toF" name="type" />
+          <label for="toF">Celsius ➡️ Fahrenheit</label><br />
+
+          <input type="radio" id="toC" name="type" />
+          <label for="toC">Fahrenheit ➡️ Celsius</label><br /><br />
+        </div>
+
+        <button type="submit" id="convert">Convert</button>
+
+        <br /><br />
+        <p id="out"></p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

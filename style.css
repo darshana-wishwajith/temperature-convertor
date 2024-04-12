@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+h1{
+    color: hsl(212, 56%, 56%);
+    font-weight:600;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    background-color: white;
+    width:auto;
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding-inline: 40px;
+}
+
+label{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#tempNum{
+    border-radius: 5px;
+    text-align: center;
+    font-size: 25px;
+}
+
+#convert{
+    border: none;
+    background-color: hsl(133, 100%, 78%);
+    padding: 10px 20px;
+    font-size: 25px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid hsl(0, 0%, 0%);
+}
+
+#convert:hover{
+    background-color: hsl(133, 68%, 71%);
+}
+
+#out{
+    font-size: 30px;
+    font-weight: 500;
+    background-color: hsl(0, 0%, 97%);
+    border-radius: 5px;
+    color: hsl(0, 78%, 42%);
+}
+
+.radio{
+   line-height: 40px;
+   margin-block: -20px;
+}
